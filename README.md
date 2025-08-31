@@ -1,29 +1,24 @@
 # 💊 Drug Tracker App
 
-## 📌 Project Overview
-Drug Tracker is an Android application designed to help users keep track of their medications.  
-The app allows users to add, view, and manage drug information with an intuitive interface.  
-It was built as part of an assignment to showcase clean architecture, proper Android development practices, and user-friendly design.
+---
+
+## ✅ Project Overview & Technical Details
+- Built with **Clean Architecture** ensuring separation of concerns.
+- Structured with **modular and reusable components** for scalability and maintainability.
+- Designed for **testability** across data, domain, and presentation layers.
+- Core functionality:
+  - Persistent storage of drug data using **Room Database**.
+  - Full **CRUD support**: Add, update, and delete drug records.
+  - Display drugs in a **RecyclerView** with efficient rendering.
+  - Reactive UI updates using **MVVM** with **LiveData** / **Flow**.
 
 ---
 
-## ✅ Requirements Covered
-- Add a new drug with details (name, description, dosage, time).
-- Display a list of all added drugs.
-- View drug details in a dedicated screen.
-- Edit and update existing drug information.
-- Delete a drug from the list.
-- Persist drug data using a local database (Room).
-- Use modern Android architecture components (MVVM, LiveData/Flow).
-
----
-
-## 🎁 Bonuses Covered
-- Implemented **Search functionality** for quick drug lookup.
-- Added **RecyclerView for efficient list updates.
-- Added **Animations** for smooth UI transitions.
-- Used **ViewBinding** for safer UI handling.
-- Applied **Clean Architecture** principles for better maintainability.
+## 🎁 Extended Features
+- **Search functionality** for fast and efficient drug lookup.
+- **Optimized RecyclerView adapters** with diffing for smooth list updates.
+- **UI animations & transitions** for an improved user experience.
+- Consistent **Clean Architecture principles** to keep code loosely coupled and maintainable.
 
 ---
 
@@ -32,6 +27,13 @@ It was built as part of an assignment to showcase clean architecture, proper And
 - **Android SDK Target**: 34  
 - **Minimum SDK**: 23  
 - **Architecture**: MVVM + Clean Architecture  
-- **Database**: Room  
-- **UI**: RecyclerView, Material Components  
+- **Persistence Layer**: Room Database  
+- **UI Layer**: RecyclerView, Material Components  
 
+---
+
+## 🚀 Future Improvements
+- Integration with **Dependency Injection** (Hilt/Dagger).  
+- Add **unit & instrumentation tests** for broader coverage.  
+- Dark mode & theming support.  
+- CI/CD pipeline setup with GitHub Actions.  
