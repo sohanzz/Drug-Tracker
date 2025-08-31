@@ -10,7 +10,7 @@
   - Persistent storage of drug data using **Room Database**.
   - Full **CRUD support**: Add, update, and delete drug records.
   - Display drugs in a **RecyclerView** with efficient rendering.
-  - Reactive UI updates using **MVVM** with **LiveData** / **Flow**.
+  - Reactive UI updates using **MVVM** with **LiveData**.
 
 ---
 
