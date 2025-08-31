@@ -6,6 +6,7 @@
 - Built with **Clean Architecture** ensuring separation of concerns.
 - Structured with **modular and reusable components** for scalability and maintainability.
 - Designed for **testability** across data, domain, and presentation layers.
+- Integration with **Dependency Injection** Hilt.
 - Core functionality:
   - Persistent storage of drug data using **Room Database**.
   - Full **CRUD support**: Add, update, and delete drug records.
@@ -29,11 +30,3 @@
 - **Architecture**: MVVM + Clean Architecture  
 - **Persistence Layer**: Room Database  
 - **UI Layer**: RecyclerView, Material Components  
-
----
-
-## 🚀 Future Improvements
-- Integration with **Dependency Injection** (Hilt/Dagger).  
-- Add **unit & instrumentation tests** for broader coverage.  
-- Dark mode & theming support.  
-- CI/CD pipeline setup with GitHub Actions.  
